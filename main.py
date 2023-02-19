@@ -2,11 +2,9 @@ from typing import List, Tuple
 BACKGROUND_COLOR = "#B1B2DD"
 import random
 from tkinter import *
-from tkinter import simpledialog
 import fitz
 from PyDictionary import PyDictionary
 from pymongo import MongoClient
-import PySimpleGUI as sg
 
 #change USER and PASS with your credentials
 client = MongoClient("mongodb+srv://USER:PASS@cluster0.kyrgb3n.mongodb.net/?retryWrites=true&w=majority")
