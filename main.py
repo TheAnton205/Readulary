@@ -8,7 +8,8 @@ from PyDictionary import PyDictionary
 from pymongo import MongoClient
 import PySimpleGUI as sg
 
-client = MongoClient("mongodb+srv://anthonysharonov:awesome132@cluster0.kyrgb3n.mongodb.net/?retryWrites=true&w=majority")
+#change USER and PASS with your credentials
+client = MongoClient("mongodb+srv://USER:PASS@cluster0.kyrgb3n.mongodb.net/?retryWrites=true&w=majority")
 db = client.get_database('vocabulary')
 words = db.words
 
